@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JUST LAW LEGAL CONSULTORS</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
+  </head>
+  <body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+        <img alt="testimonial" class="w-20 h-20 mb-1 object-cover object-center rounded-full inline-block bg-opacity-10" src="assets/images/lady_justice01.png">
+        <span class="ml-3 text-3xl">Just Law</span>
+        </a>
+        <button onclick="window.location.href='index.html';"
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        >
+           HOME
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+    <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap items-center">
+          <div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 class="title-font font-medium text-3xl text-white">Slow-carb next level shoindcgoitch ethical authentic, poko scenester</h1>
+            <p class="leading-relaxed mt-4">Poke slow-carb mixtape knausgaard, typewriter street art gentrify hammock starladder roathse. Craies vegan tousled etsy austin.</p>
+          </div>
+          <div class="lg:w-2/6 md:w-1/2 bg-gray-800 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+            <h2 class="text-white text-lg font-medium title-font mb-5">Sign Up</h2>
+            <div class="relative mb-4">
+              <label for="fullname" class="leading-7 text-sm text-gray-300">Full Name</label>
+              <input type="text" id="fullname" name="fullname" class="w-full bg-black rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+              <label for="email" class="leading-7 text-sm text-gray-300">Email</label>
+              <input type="email" id="email" name="email" class="w-full bg-black rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-300 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <div class="relative mb-4">
+                <label for="phonenumber" class="leading-7 text-sm text-gray-300">Phone number</label>
+                <input type="phonenumber" id="phonenumber" name="phonenumber" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <div class="relative mb-4">
+                <div class="relative w-full mb-3" x-data="{ show: true }">
+                    <label for="password">Password</label>
+                    <input :type="show ? 'password' : 'text'" name="password" class="w-full rounded border border-gray-300 p-4 placeholder-gray-400 text-gray-300 bg-black rounded text-sm shadow focus:border-green-500 focus:ring-2 focus:ring-indigo-200 focus:outline-none focus:ring w-full" placeholder="Password" />
+                    <div class=" absolute inset-y-0 right-0 pr-3 flex items-center text-sm leading-5 ">
+                        <p class=" mt-5" @click="show=! show" x-text=" show ? 'Show' : 'Hide' "></p>
+                    </div>
+              </div>
+            <button class="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" onclick="greetings()">Continue</button>
+            <p class="text-xs text-gray-300 mt-3">Already have an account? <a href="index.html" class="font-bold">Login</a></p>
+          </div>
+        </div>
+      </section>
+
+      <script src="signup.js"></script>
+</body>
+</html>
