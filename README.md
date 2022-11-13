@@ -6,7 +6,7 @@ Safety isn't expensive, it's priceless. Gender equality is not only a fundamenta
 
 <img src="assets/images/main.png">
 
-Our star feature is the alert feature(in progress) when clicked on the help button, that essentially alerts helpline authorities and your registered emergency contacts about your current location with a red alert.
+Our star feature is the alert feature(in progress) when clicked on the help button, that essentially alerts helpline authorities and your registered emergency contacts about your current location with a red alert.(CLick on the help button on the home page to go to the map section)
 <br>
 <img src="assets/images/alert.png">
 
