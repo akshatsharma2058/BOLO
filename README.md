@@ -6,5 +6,5 @@ Safety isn't expensive, it's priceless. Gender equality is not only a fundamenta
 
 Alongside we also present a flagship product called Bolo+, which is an NLP(Natural Language Processing) based addon that detects and cleanses abuse on social media in hinglish. The dataset for this was taken from previously scraped tweets. 
 
-<img src="assets/images/boloplus.png>
+<img src="assets/images/boloplus.png">
 
