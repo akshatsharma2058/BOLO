@@ -1,3 +1,3 @@
 # BOLO
 Be on LookOut
-Inspirathon 2.0
+BOLO is a platform(under-construction) aimed at making India a better and safer place to live in for women.
