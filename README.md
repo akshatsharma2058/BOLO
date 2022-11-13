@@ -19,6 +19,8 @@ Alongside we also present a flagship product called Bolo+, which is an NLP(Natur
 ### Future Prospects
 - Our aim is to deploy the ML model as an extention or bot of sort to clear out the abusive tweets on the platform.
 - Furthur we also plan on adding a blog section and education section on our web interface for women.
+<br>
+find us at https://boloindia.vercel.app/
 
 ### Contributors
 [![](https://github.com/akshatsharma2058.png?size=50)](https://github.com/akshatsharma2058)
