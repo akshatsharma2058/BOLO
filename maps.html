@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOLO</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets\images\favicons\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets\images\favicons\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets\images\favicons\favicon-16x16.png">
+    <link rel="manifest" href="assets\images\favicons\site.webmanifest">
+
+    <!-- plugin scripts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700,800,900%7CLibre+Baskerville:400,700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/plugins/potisen-icons/style.css">
+    <link rel="stylesheet" href="assets/css/vegas.min.css">
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script>(function(w, d) { w.CollectId = "637017b9f082f7d98ded0046"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
+</head>
+
+<body>
+    <div class="preloader">
+        
+    </div><!-- /.preloader -->
+    <div class="page-wrapper">
+                <div class="topbar-two__social" style="visibility: hidden;">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-facebook-square"></a>
+                    <a href="#" class="fa fa-pinterest-p"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div><!-- /.topbar-two__social -->
+            </div><!-- /.container -->
+        </div><!-- /.topbar-two -->
+        <header class="site-header site-header__header-one site-header__header-two ">
+            <nav class="navbar navbar-expand-lg navbar-light header-navigation stricky">
+                <div class="container clearfix">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="logo-box clearfix">
+                        <button class="menu-toggler" data-target=".main-navigation">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div><!-- /.logo-box -->
+                    
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="main-navigation">
+
+                        <ul class=" navigation-box">
+                            <li class="icon">
+                                <img alt="testimonial" class="w-20 h-20 mb-1 object-cover object-center rounded-full inline-block bg-opacity-10" src="assets/images/icon.jpg">
+                            </li>
+                            
+                            <li class="current">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+
+                            </li>
+                            <li>
+                                <a href="#how_it_works">How it works?</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+
+
+    <div id="map_container" style="width: 100%; height: 350px;"> </div>
+    <script>
+      function initialize_map() {
+        var mapDiv = document.getElementById('map_container');
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 12.983, lng: 79.9698},
+			zoom: 15
+        });
+        var marker = new google.maps.Marker({
+	     position: new google.maps.LatLng(12.9832, 79.9698),
+	     map: map
+	 });
+	 var address = '<div><p><b>Organization  Address</b></p></div>';
+	 var infowindow = new google.maps.InfoWindow({
+             content: address
+            });
+         marker.addListener('click', function() {
+          infowindow.open(map, marker);
+         });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABXqkn2sgAK-E0urVsOejxzj6GpOiWDVE&callback=initialize_map">
+    </script>
+
+
+<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/typed-2.0.11.js"></script>
+    <script src="assets/js/vegas.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/countdown.min.js"></script>
+    
+
+    <!-- template scripts -->
+    <script src="assets/js/theme.js"></script>
+
+
+</body>
+</html>
