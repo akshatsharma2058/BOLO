@@ -21,6 +21,7 @@ Alongside we also present a flagship product called Bolo+, which is an NLP(Natur
 - Furthur we also plan on adding a blog section and education section on our web interface for women.
 <br>
 Find us at https://boloindia.vercel.app/
+<img src="assets/images/icon.jpg" style="width:100px;height:100px;">
 
 
 ### Contributors
